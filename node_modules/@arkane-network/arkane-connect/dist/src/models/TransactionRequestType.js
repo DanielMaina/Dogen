@@ -1,0 +1,36 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var TransactionRequestType;
+(function (TransactionRequestType) {
+    TransactionRequestType["AE_TRANSACTION"] = "AE_TRANSACTION";
+    TransactionRequestType["AVAC_TRANSACTION"] = "AVAC_TRANSACTION";
+    TransactionRequestType["AVAC_ERC20_TRANSACTION"] = "AVAC_ERC20_TRANSACTION";
+    TransactionRequestType["AVAC_ERC721_TRANSACTION"] = "AVAC_ERC721_TRANSACTION";
+    TransactionRequestType["AVAC_CONTRACT_EXECUTION"] = "AVAC_CONTRACT_EXECUTION";
+    TransactionRequestType["BSC_TRANSACTION"] = "BSC_TRANSACTION";
+    TransactionRequestType["BSC_BEP20_TRANSACTION"] = "BSC_BEP20_TRANSACTION";
+    TransactionRequestType["BSC_ERC721_TRANSACTION"] = "BSC_ERC721_TRANSACTION";
+    TransactionRequestType["BSC_CONTRACT_EXECUTION"] = "BSC_CONTRACT_EXECUTION";
+    TransactionRequestType["BTC_TRANSACTION"] = "BTC_TRANSACTION";
+    TransactionRequestType["ETH_TRANSACTION"] = "ETH_TRANSACTION";
+    TransactionRequestType["ETHEREUM_ERC20_TRANSACTION"] = "ETHEREUM_ERC20_TRANSACTION";
+    TransactionRequestType["ETHEREUM_ERC721_TRANSACTION"] = "ETHEREUM_ERC721_TRANSACTION";
+    TransactionRequestType["ETHEREUM_CONTRACT_EXECUTION"] = "ETHEREUM_CONTRACT_EXECUTION";
+    TransactionRequestType["MATIC_TRANSACTION"] = "MATIC_TRANSACTION";
+    TransactionRequestType["MATIC_ERC20_TRANSACTION"] = "MATIC_ERC20_TRANSACTION";
+    TransactionRequestType["MATIC_ERC721_TRANSACTION"] = "MATIC_ERC721_TRANSACTION";
+    TransactionRequestType["MATIC_CONTRACT_EXECUTION"] = "MATIC_CONTRACT_EXECUTION";
+    TransactionRequestType["GO_TRANSACTION"] = "GO_TRANSACTION";
+    TransactionRequestType["GOCHAIN_GO20_TRANSACTION"] = "GOCHAIN_GO20_TRANSACTION";
+    TransactionRequestType["LTC_TRANSACTION"] = "LTC_TRANSACTION";
+    TransactionRequestType["VECHAIN_VIP180_TRANSACTION"] = "VECHAIN_VIP180_TRANSACTION";
+    TransactionRequestType["VET_TRANSACTION"] = "VET_TRANSACTION";
+    TransactionRequestType["VECHAIN_CONTRACT_EXECUTION"] = "VECHAIN_CONTRACT_EXECUTION";
+    TransactionRequestType["TRC10_TRANSACTION"] = "TRC10_TRANSACTION";
+    TransactionRequestType["TRX_TRANSACTION"] = "TRX_TRANSACTION";
+    TransactionRequestType["TRON_CONTRACT_EXECUTION"] = "TRON_CONTRACT_EXECUTION";
+    TransactionRequestType["NEO_NATIVE_TRANSACTION"] = "NEO_NATIVE_TRANSACTION";
+    TransactionRequestType["NEO_GAS_TRANSACTION"] = "NEO_GAS_TRANSACTION";
+    TransactionRequestType["NEO_CONTRACT_EXECUTION"] = "NEO_CONTRACT_EXECUTION";
+})(TransactionRequestType = exports.TransactionRequestType || (exports.TransactionRequestType = {}));
+//# sourceMappingURL=TransactionRequestType.js.map

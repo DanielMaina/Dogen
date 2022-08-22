@@ -1,0 +1,31 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var SignatureRequestType;
+(function (SignatureRequestType) {
+    SignatureRequestType["AETERNITY_TRANSACTION"] = "AETERNITY_TRANSACTION";
+    SignatureRequestType["AETERNITY_RAW"] = "AETERNITY_RAW";
+    SignatureRequestType["AVAC_RAW"] = "AVAC_RAW";
+    SignatureRequestType["AVAC_EIP712"] = "AVAC_712";
+    SignatureRequestType["AVAC_TRANSACTION"] = "AVAC_TRANSACTION";
+    SignatureRequestType["BITCOIN_TRANSACTION"] = "BITCOIN_TRANSACTION";
+    SignatureRequestType["BSC_RAW"] = "BSC_RAW";
+    SignatureRequestType["BSC_EIP712"] = "BSC_712";
+    SignatureRequestType["BSC_TRANSACTION"] = "BSC_TRANSACTION";
+    SignatureRequestType["ETHEREUM_RAW"] = "ETHEREUM_RAW";
+    SignatureRequestType["ETHEREUM_EIP712"] = "ETHEREUM_712";
+    SignatureRequestType["ETHEREUM_TRANSACTION"] = "ETHEREUM_TRANSACTION";
+    SignatureRequestType["MATIC_RAW"] = "MATIC_RAW";
+    SignatureRequestType["MATIC_TRANSACTION"] = "MATIC_TRANSACTION";
+    SignatureRequestType["GOCHAIN_RAW"] = "GOCHAIN_RAW";
+    SignatureRequestType["GOCHAIN_TRANSACTION"] = "GOCHAIN_TRANSACTION";
+    SignatureRequestType["LITECOIN_TRANSACTION"] = "LITECOIN_TRANSACTION";
+    SignatureRequestType["TRC10_TRANSACTION"] = "TRC10_TRANSACTION";
+    SignatureRequestType["TRON_RAW"] = "TRON_RAW";
+    SignatureRequestType["TRON_TRANSACTION"] = "TRON_TRANSACTION";
+    SignatureRequestType["VECHAIN_TRANSACTION"] = "VECHAIN_TRANSACTION";
+    SignatureRequestType["VECHAIN_RAW"] = "VECHAIN_RAW";
+    SignatureRequestType["NEO_NATIVE_TRANSACTION"] = "NEO_NATIVE_TRANSACTION";
+    SignatureRequestType["NEO_RAW"] = "NEO_RAW";
+    SignatureRequestType["NEO_MESSAGE"] = "NEO_MESSAGE";
+})(SignatureRequestType = exports.SignatureRequestType || (exports.SignatureRequestType = {}));
+//# sourceMappingURL=SignatureRequestType.js.map
