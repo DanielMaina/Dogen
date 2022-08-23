@@ -69,27 +69,27 @@ const Header: React.FC = () => {
       id: 'farm-page-link',
       isNew: true,
     },
-    {
-      link: '/dragons',
-      text: t('dragonLair'),
-      id: 'dragons-page-link',
-    },
-    {
-      link: '/convert',
-      text: t('convert'),
-      id: 'convert-quick',
-    },
+    // {
+    //   link: '/dragons',
+    //   text: t('dragonLair'),
+    //   id: 'dragons-page-link',
+    // },
+    // {
+    //   link: '/convert',
+    //   text: t('convert'),
+    //   id: 'convert-quick',
+    // },
     // {
     //   link: '/prdt',
     //   text: 'Predictions',
     //   id: 'prdt-page-link',
     //   isNew: true,
     // },
-    {
-      link: '/analytics',
-      text: t('analytics'),
-      id: 'analytics-page-link',
-    },
+    // {
+    //   link: '/analytics',
+    //   text: t('analytics'),
+    //   id: 'analytics-page-link',
+    // },
   ];
 
   const outLinks: any[] = [

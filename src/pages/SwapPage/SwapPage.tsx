@@ -95,14 +95,23 @@ const SwapPage: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <Box width='100%' mb={3} id='swap-page'>
+    <Box
+      width='100%'
+      mb={3}
+      id='swap-page'
+      style={{
+        // display: 'flex',
+        // alignItems: 'center',
+        justifyContent: 'center',
+      }}
+    >
       {!isProMode && (
         <Box className='pageHeading'>
           <h4>{t('swap')}</h4>
-          <Box className='helpWrapper'>
+          {/* <Box className='helpWrapper'>
             <small>{t('help')}</small>
             <HelpIcon />
-          </Box>
+          </Box> */}
         </Box>
       )}
       {!isProMode ? (
@@ -113,7 +122,7 @@ const SwapPage: React.FC = () => {
             </Box>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={7}>
-            <Box className='flex flex-wrap justify-between fullWidth'>
+            {/* <Box className='flex flex-wrap justify-between fullWidth'>
               {token1 && (
                 <Box className='swapTokenDetails'>
                   <SwapTokenDetails token={token1} />
@@ -124,7 +133,7 @@ const SwapPage: React.FC = () => {
                   <SwapTokenDetails token={token2} />
                 </Box>
               )}
-            </Box>
+            </Box> */}
             {token1 && token2 && (
               <Box className='wrapper' marginTop='32px'>
                 <LiquidityPools token1={token1} token2={token2} />
